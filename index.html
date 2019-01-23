@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>JavaScript Calculator - Developed by Alan Nascimento</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    
+</head>
+<body>
+    
+    <h1>JavaScript Calculator</h1>
+    
+    <ul class="credits">
+        <li>Developed by: Alan Nascimento</li>
+        <li><a href="https://github.com/dest4rk/" target="_blank"><i class="fab fa-github"></i></a></li>
+    </ul>
+    
+    <div class="container">
+        
+        <div class="output">
+            <p id="expression">0</p>
+        </div>
+        
+        <div id="buttons">
+            
+            <div class="numbers">
+                
+                <button class="btn btn-top btn-ce">ce</button>
+                <button class="btn btn-top btn-c">c</button>
+                <button class="btn btn-top btn-bck"> <i class="fas fa-backspace"></i></button>
+                
+                <button class="btn btn-num btn-7">7</button>
+                <button class="btn btn-num btn-8">8</button>
+                <button class="btn btn-num btn-9">9</button>
+                
+                <button class="btn btn-num btn-4">4</button>
+                <button class="btn btn-num btn-5">5</button>
+                <button class="btn btn-num btn-6">6</button>
+                
+                <button class="btn btn-num btn-1">1</button>
+                <button class="btn btn-num btn-2">2</button>
+                <button class="btn btn-num btn-3">3</button>
+                
+                <button class="btn btn-num btn-dot">.</button>
+                <button class="btn btn-num btn-0">0</button>
+                <button class="btn btn-num btn-equal">=</button>
+
+            </div>
+            
+            <div class="operators">
+                
+                <button class="btn btn-opr btn-ptc">%</button>
+                <button class="btn btn-opr btn-div">/</button>
+                <button class="btn btn-opr btn-x">x</button>
+                <button class="btn btn-opr btn-min">-</button>
+                <button class="btn btn-opr btn-sum">+</button>
+                
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="js/CalcController.js"></script>
+    <script src="js/calculator.js"></script>
+    
+</body>
+</html>
